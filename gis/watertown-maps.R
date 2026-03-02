@@ -71,8 +71,10 @@ candidates_final <-
 candidates_final <- read_csv("gis/candidate-precinct.csv")
 
 # Write updated CSV with lat/lon
-candidates_final |>
-    write_csv(here("gis/candidate-precinct.csv"))
+# candidates_final |>
+#     write_csv(here("gis/candidate-precinct.csv"))
+
+candidates_final <- read_csv(here("gis/candidate-precinct.csv"))
 
 # Convert candidates to sf for mapping
 candidates_map_sf <-
@@ -87,8 +89,8 @@ tmap_mode("view")
 precinct_map <-
     (tm_shape(watertown_pcts) +
      tm_polygons(
-         col = "district",
-         alpha = 0.6
+         fill = "district",
+         fill_alpha = 0.6
      ) +
      tm_text("precinct") +
      tm_basemap("OpenStreetMap"))
@@ -96,15 +98,15 @@ precinct_map <-
 candidate_map <-
     tm_shape(watertown_pcts) +
     tm_polygons(
-        col = "district",
-        alpha = 0.6,
+        fill = "district",
+        fill_alpha = 0.6,
         id = "precinct",
         popup.vars = c("Precinct" = "precinct", "District" = "district")
     ) +
     tm_text("precinct") +
     tm_shape(candidates_map_sf) +
     tm_dots(
-        alpha = 0.8,
+        fill_alpha = 0.8,
         id = "candidate",
         popup.vars = c(
             "Candidate" = "candidate",
