@@ -50,7 +50,7 @@
   (citywide, district, question) render correctly, including maps and deep links
 - [x] 5.2 Add an About / data-sources note and update `README.md` to link to the
   published site
-- [ ] 5.3 Enable GitHub Pages on the default branch pointing at `/docs` and confirm
+- [x] 5.3 Enable GitHub Pages on the default branch pointing at `/docs` and confirm
   the deployed site loads
 
 ## 6. Map basemap (per review feedback)
