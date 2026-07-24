@@ -10,6 +10,8 @@ candidate in each precinct:
 
 https://bwbensonjr.github.io/watertown-elections/
 
+Example results page:
+
 ![Example results page](results-example.png)
 
 ## Voter information
