@@ -112,32 +112,15 @@ elec_lines_2019 <- read_election("2019-11-05.csv")
 cand_pcts_2019 <- candidate_precincts(elec_lines_2019)
 cand_results_2019 <- candidate_results(cand_pcts_2019)
 
-cand_pcts <- rbind(cand_pcts_2025, cand_pcts_2023, cand_pcts_2021, cand_pcts_2019)
-cand_results <- rbind(cand_results_2025, cand_results_2023, cand_results_2021, cand_results_2019)
+elec_lines_2017 <- read_election("2017-11-07.csv")
+cand_pcts_2017 <- candidate_precincts(elec_lines_2017)
+cand_results_2017 <- candidate_results(cand_pcts_2017)
+
+cand_pcts <- rbind(cand_pcts_2025, cand_pcts_2023, cand_pcts_2021, cand_pcts_2019, cand_pcts_2017)
+cand_results <- rbind(cand_results_2025, cand_results_2023, cand_results_2021, cand_results_2019, cand_results_2017)
 
 cand_pcts |>
    write_csv("watertown-precinct-results.csv")
 
 cand_results |>
    write_csv("watertown-election-results.csv")
-
-fix_columns <- function(df) {
-    df |>
-        mutate(
-            office = if_else(
-                is.na(district),
-                if_else(
-                    (office == "PUBLIC LIBRARY TRUSTEE"),
-                    "LIBRARY TRUSTEES",
-                    office
-                ),
-                str_glue("DISTRICT {district} COUNCILOR")
-            ),
-            candidate = if_else(
-                (candidate == "Write-in"),
-                candidate,
-                str_to_title(candidate)
-            )
-        ) |>
-        select(-district)
-}

@@ -30,6 +30,23 @@ Election results are processed from official PDFs through an R pipeline:
   - `candidate_precincts()` - Calculates election statistics by office and precinct
   - `candidate_results()` - Aggregates votes across precincts and determines winners
 
+**2017 CSV Generator:**
+
+The 2017 official results PDF (`2017-11-07.pdf`) is a per-precinct summary
+report rather than the wide precinct-by-candidate table used for later years, so
+its wide-format `2017-11-07.csv` was assembled by a helper rather than
+transcribed directly:
+- `gen_2017_wide.py` - One-time build tool (NOT part of the R pipeline) that
+  produces `2017-11-07.csv` from `2017-11-07-no-totals.csv` (candidate/write-in
+  votes) plus the per-precinct registration and ballot counts read from the PDF
+  page headers (hardcoded in the script). It computes `Times Blank Voted` as
+  total empty vote slots (`seats*ballots - candidate_votes - write_ins`) to match
+  the convention used in the other years' CSVs, and self-verifies against known
+  PDF `Total Votes` cells. Once generated and committed, `2017-11-07.csv` is read
+  directly by `process-results.R` like every other year; re-run the generator
+  only to regenerate or audit that file. Run from `results/`:
+  `uv run --no-project python gen_2017_wide.py`
+
 **Output Data:**
 - `watertown-precinct-results.csv` - Detailed results with one row per candidate-precinct-office combination
 - `watertown-election-results.csv` - Aggregated results across all precincts with winner determination
