@@ -1,5 +1,7 @@
 library(tidyverse)
 library(janitor)
+library(jsonlite)
+library(sf)
 
 read_election <- function(file_name) {
     election_date <- str_sub(file_name, end = -5)
@@ -124,3 +126,120 @@ cand_pcts |>
 
 cand_results |>
    write_csv("watertown-election-results.csv")
+
+# --- Site-ready JSON export (docs/data/elections.json) ---------------------
+#
+# Emits a single nested JSON consumed by the static website in docs/. All
+# vote logic (winners, per-precinct winners, office scope) is precomputed
+# here so the frontend is pure rendering. The CSV outputs above are unchanged.
+
+slugify <- function(x) {
+    x |>
+        str_to_lower() |>
+        str_replace_all("[^a-z0-9]+", "-") |>
+        str_replace_all("^-|-$", "")
+}
+
+election_label <- function(date_str) {
+    format(as.Date(date_str), "%B %e, %Y") |> str_squish()
+}
+
+# scope: "citywide" | "district" | "question"; district letter for district races
+office_scope <- function(office) {
+    if (str_detect(office, "^BALLOT QUESTION")) {
+        list(scope = "question", district = NA_character_)
+    } else if (str_detect(office, "^DISTRICT [A-D] COUNCILOR")) {
+        list(scope = "district", district = str_extract(office, "(?<=^DISTRICT )[A-D]"))
+    } else {
+        list(scope = "citywide", district = NA_character_)
+    }
+}
+
+build_office <- function(off_name, results_df, pcts_df) {
+    res <- results_df |>
+        filter(office == off_name) |>
+        arrange(vote_rank, desc(votes), candidate)
+    pcts <- pcts_df |>
+        filter(office == off_name) |>
+        mutate(precinct = as.integer(precinct))
+    sc <- office_scope(off_name)
+    precinct_list <- pcts |> pull(precinct) |> unique() |> sort()
+
+    candidates <- lapply(seq_len(nrow(res)), function(i) {
+        cand <- res$candidate[i]
+        cp <- pcts |> filter(candidate == cand) |> arrange(precinct)
+        by_precinct <- setNames(as.list(as.integer(cp$votes)),
+                                as.character(cp$precinct))
+        list(
+            name = cand,
+            votes = as.integer(res$votes[i]),
+            rank = as.integer(res$vote_rank[i]),
+            is_winner = isTRUE(res$is_winner[i]),
+            by_precinct = by_precinct
+        )
+    })
+
+    # Winner per precinct: most votes, ties broken by citywide total then name
+    winners <- pcts |>
+        left_join(res |> select(candidate, city_votes = votes), by = "candidate") |>
+        group_by(precinct) |>
+        arrange(desc(votes), desc(city_votes), candidate, .by_group = TRUE) |>
+        slice(1) |>
+        ungroup() |>
+        arrange(precinct)
+    precinct_winners <- setNames(as.list(winners$candidate),
+                                 as.character(winners$precinct))
+
+    list(
+        office = off_name,
+        slug = slugify(off_name),
+        seats = as.integer(res$max_votes[1]),
+        scope = sc$scope,
+        district = sc$district,
+        precincts = precinct_list,
+        total_ballots = as.integer(res$total_ballots[1]),
+        blank_votes = as.integer(res$blank_votes[1]),
+        write_ins = as.integer(res$write_ins[1]),
+        candidates = candidates,
+        precinct_winners = precinct_winners
+    )
+}
+
+build_election <- function(date_str) {
+    res_d <- cand_results |> filter(election_date == date_str)
+    pcts_d <- cand_pcts |> filter(election_date == date_str)
+    offices <- res_d |> pull(office) |> unique() |> sort()
+    list(
+        date = date_str,
+        label = election_label(date_str),
+        offices = lapply(offices, build_office, results_df = res_d, pcts_df = pcts_d)
+    )
+}
+
+dates_desc <- cand_results |> pull(election_date) |> unique() |> sort(decreasing = TRUE)
+
+site_data <- list(
+    city_town = "Watertown",
+    elections = lapply(dates_desc, build_election)
+)
+
+dir.create("../docs/data", recursive = TRUE, showWarnings = FALSE)
+write_json(
+    site_data,
+    "../docs/data/elections.json",
+    auto_unbox = TRUE,
+    pretty = TRUE,
+    na = "null"
+)
+
+# Reproject precinct geometry to WGS84 (EPSG:4326) for the web map. The source
+# geojson is in Massachusetts State Plane meters, which Leaflet cannot use.
+precincts_wgs84 <- st_read(
+    "../gis/watertown-precincts-2022.geojson",
+    quiet = TRUE
+) |>
+    st_transform(4326)
+
+geojson_path <- "../docs/data/precincts.geojson"
+if (file.exists(geojson_path)) file.remove(geojson_path)
+st_write(precincts_wgs84, geojson_path, driver = "GeoJSON", quiet = TRUE)

@@ -1,0 +1,2940 @@
+{
+  "city_town": "Watertown",
+  "elections": [
+    {
+      "date": "2025-11-04",
+      "label": "November 4, 2025",
+      "offices": [
+        {
+          "office": "CITY COUNCIL PRESIDENT",
+          "slug": "city-council-president",
+          "seats": 1,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 5085,
+          "blank_votes": 829,
+          "write_ins": 78,
+          "candidates": [
+            {
+              "name": "Mark S. Sideris",
+              "votes": 4178,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 199,
+                "2": 329,
+                "3": 365,
+                "4": 524,
+                "5": 275,
+                "6": 298,
+                "7": 447,
+                "8": 493,
+                "9": 281,
+                "10": 250,
+                "11": 410,
+                "12": 307
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Mark S. Sideris",
+            "2": "Mark S. Sideris",
+            "3": "Mark S. Sideris",
+            "4": "Mark S. Sideris",
+            "5": "Mark S. Sideris",
+            "6": "Mark S. Sideris",
+            "7": "Mark S. Sideris",
+            "8": "Mark S. Sideris",
+            "9": "Mark S. Sideris",
+            "10": "Mark S. Sideris",
+            "11": "Mark S. Sideris",
+            "12": "Mark S. Sideris"
+          }
+        },
+        {
+          "office": "COUNCILOR-AT-LARGE",
+          "slug": "councilor-at-large",
+          "seats": 4,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 5085,
+          "blank_votes": 5243,
+          "write_ins": 29,
+          "candidates": [
+            {
+              "name": "John G. Gannon",
+              "votes": 3418,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 156,
+                "2": 245,
+                "3": 294,
+                "4": 409,
+                "5": 231,
+                "6": 246,
+                "7": 353,
+                "8": 424,
+                "9": 239,
+                "10": 218,
+                "11": 343,
+                "12": 260
+              }
+            },
+            {
+              "name": "Anthony Palomba",
+              "votes": 3389,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 162,
+                "2": 293,
+                "3": 321,
+                "4": 433,
+                "5": 224,
+                "6": 250,
+                "7": 356,
+                "8": 421,
+                "9": 230,
+                "10": 176,
+                "11": 294,
+                "12": 229
+              }
+            },
+            {
+              "name": "Caroline J. Bays",
+              "votes": 3030,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 154,
+                "2": 256,
+                "3": 310,
+                "4": 409,
+                "5": 206,
+                "6": 212,
+                "7": 322,
+                "8": 358,
+                "9": 188,
+                "10": 155,
+                "11": 265,
+                "12": 195
+              }
+            },
+            {
+              "name": "Theophilus Offei",
+              "votes": 2999,
+              "rank": 4,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 161,
+                "2": 275,
+                "3": 316,
+                "4": 386,
+                "5": 239,
+                "6": 201,
+                "7": 304,
+                "8": 319,
+                "9": 216,
+                "10": 173,
+                "11": 240,
+                "12": 169
+              }
+            },
+            {
+              "name": "Thomas J. Tracy",
+              "votes": 2232,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 99,
+                "2": 137,
+                "3": 145,
+                "4": 268,
+                "5": 134,
+                "6": 140,
+                "7": 248,
+                "8": 278,
+                "9": 150,
+                "10": 163,
+                "11": 274,
+                "12": 196
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Anthony Palomba",
+            "2": "Anthony Palomba",
+            "3": "Anthony Palomba",
+            "4": "Anthony Palomba",
+            "5": "Theophilus Offei",
+            "6": "Anthony Palomba",
+            "7": "Anthony Palomba",
+            "8": "John G. Gannon",
+            "9": "John G. Gannon",
+            "10": "John G. Gannon",
+            "11": "John G. Gannon",
+            "12": "John G. Gannon"
+          }
+        },
+        {
+          "office": "DISTRICT A COUNCILOR",
+          "slug": "district-a-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "A",
+          "precincts": [1, 2, 3],
+          "total_ballots": 1106,
+          "blank_votes": 163,
+          "write_ins": 9,
+          "candidates": [
+            {
+              "name": "Nicole N. Gardner",
+              "votes": 934,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 208,
+                "2": 346,
+                "3": 380
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Nicole N. Gardner",
+            "2": "Nicole N. Gardner",
+            "3": "Nicole N. Gardner"
+          }
+        },
+        {
+          "office": "DISTRICT B COUNCILOR",
+          "slug": "district-b-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "B",
+          "precincts": [4, 5, 6],
+          "total_ballots": 1311,
+          "blank_votes": 275,
+          "write_ins": 24,
+          "candidates": [
+            {
+              "name": "Lisa J. Feltner",
+              "votes": 1012,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "4": 462,
+                "5": 264,
+                "6": 286
+              }
+            }
+          ],
+          "precinct_winners": {
+            "4": "Lisa J. Feltner",
+            "5": "Lisa J. Feltner",
+            "6": "Lisa J. Feltner"
+          }
+        },
+        {
+          "office": "DISTRICT C COUNCILOR",
+          "slug": "district-c-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "C",
+          "precincts": [7, 8, 9],
+          "total_ballots": 1497,
+          "blank_votes": 142,
+          "write_ins": 6,
+          "candidates": [
+            {
+              "name": "Vincent J. Piccirilli Jr",
+              "votes": 1042,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "7": 412,
+                "8": 416,
+                "9": 214
+              }
+            },
+            {
+              "name": "Andres E. Guzman",
+              "votes": 307,
+              "rank": 2,
+              "is_winner": false,
+              "by_precinct": {
+                "7": 79,
+                "8": 123,
+                "9": 105
+              }
+            }
+          ],
+          "precinct_winners": {
+            "7": "Vincent J. Piccirilli Jr",
+            "8": "Vincent J. Piccirilli Jr",
+            "9": "Vincent J. Piccirilli Jr"
+          }
+        },
+        {
+          "office": "DISTRICT D COUNCILOR",
+          "slug": "district-d-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "D",
+          "precincts": [10, 11, 12],
+          "total_ballots": 1171,
+          "blank_votes": 223,
+          "write_ins": 14,
+          "candidates": [
+            {
+              "name": "Emily C. Izzo",
+              "votes": 934,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "10": 257,
+                "11": 398,
+                "12": 279
+              }
+            }
+          ],
+          "precinct_winners": {
+            "10": "Emily C. Izzo",
+            "11": "Emily C. Izzo",
+            "12": "Emily C. Izzo"
+          }
+        },
+        {
+          "office": "LIBRARY TRUSTEES",
+          "slug": "library-trustees",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 5085,
+          "blank_votes": 4384,
+          "write_ins": 39,
+          "candidates": [
+            {
+              "name": "Leanne Hammonds",
+              "votes": 3547,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 158,
+                "2": 284,
+                "3": 307,
+                "4": 445,
+                "5": 239,
+                "6": 256,
+                "7": 383,
+                "8": 429,
+                "9": 241,
+                "10": 210,
+                "11": 349,
+                "12": 246
+              }
+            },
+            {
+              "name": "Pia L. Owens",
+              "votes": 3104,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 169,
+                "2": 266,
+                "3": 322,
+                "4": 412,
+                "5": 212,
+                "6": 201,
+                "7": 321,
+                "8": 341,
+                "9": 231,
+                "10": 169,
+                "11": 267,
+                "12": 193
+              }
+            },
+            {
+              "name": "Xin Peng",
+              "votes": 2894,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 139,
+                "2": 234,
+                "3": 290,
+                "4": 361,
+                "5": 192,
+                "6": 203,
+                "7": 285,
+                "8": 365,
+                "9": 212,
+                "10": 171,
+                "11": 255,
+                "12": 187
+              }
+            },
+            {
+              "name": "Fowler M.s. Brown Jr",
+              "votes": 1287,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 69,
+                "2": 112,
+                "3": 91,
+                "4": 142,
+                "5": 100,
+                "6": 91,
+                "7": 102,
+                "8": 153,
+                "9": 97,
+                "10": 86,
+                "11": 145,
+                "12": 99
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Pia L. Owens",
+            "2": "Leanne Hammonds",
+            "3": "Pia L. Owens",
+            "4": "Leanne Hammonds",
+            "5": "Leanne Hammonds",
+            "6": "Leanne Hammonds",
+            "7": "Leanne Hammonds",
+            "8": "Leanne Hammonds",
+            "9": "Leanne Hammonds",
+            "10": "Leanne Hammonds",
+            "11": "Leanne Hammonds",
+            "12": "Leanne Hammonds"
+          }
+        },
+        {
+          "office": "SCHOOL COMMITTEE",
+          "slug": "school-committee",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 5085,
+          "blank_votes": 3134,
+          "write_ins": 16,
+          "candidates": [
+            {
+              "name": "Jessica D. Middlebrook",
+              "votes": 3163,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 153,
+                "2": 269,
+                "3": 309,
+                "4": 406,
+                "5": 215,
+                "6": 234,
+                "7": 328,
+                "8": 370,
+                "9": 206,
+                "10": 177,
+                "11": 277,
+                "12": 219
+              }
+            },
+            {
+              "name": "Sheila Krishnan",
+              "votes": 2991,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 165,
+                "2": 263,
+                "3": 289,
+                "4": 361,
+                "5": 210,
+                "6": 203,
+                "7": 322,
+                "8": 368,
+                "9": 238,
+                "10": 146,
+                "11": 236,
+                "12": 190
+              }
+            },
+            {
+              "name": "Amy B. Donohue",
+              "votes": 2916,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 137,
+                "2": 231,
+                "3": 250,
+                "4": 356,
+                "5": 173,
+                "6": 197,
+                "7": 331,
+                "8": 353,
+                "9": 185,
+                "10": 186,
+                "11": 295,
+                "12": 222
+              }
+            },
+            {
+              "name": "Joseph C. Ganno",
+              "votes": 1570,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 56,
+                "2": 98,
+                "3": 116,
+                "4": 216,
+                "5": 99,
+                "6": 123,
+                "7": 169,
+                "8": 174,
+                "9": 94,
+                "10": 115,
+                "11": 171,
+                "12": 139
+              }
+            },
+            {
+              "name": "David M. Stokes",
+              "votes": 1465,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 73,
+                "2": 130,
+                "3": 131,
+                "4": 183,
+                "5": 108,
+                "6": 74,
+                "7": 125,
+                "8": 175,
+                "9": 99,
+                "10": 99,
+                "11": 169,
+                "12": 99
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Sheila Krishnan",
+            "2": "Jessica D. Middlebrook",
+            "3": "Jessica D. Middlebrook",
+            "4": "Jessica D. Middlebrook",
+            "5": "Jessica D. Middlebrook",
+            "6": "Jessica D. Middlebrook",
+            "7": "Amy B. Donohue",
+            "8": "Jessica D. Middlebrook",
+            "9": "Sheila Krishnan",
+            "10": "Amy B. Donohue",
+            "11": "Amy B. Donohue",
+            "12": "Amy B. Donohue"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2023-11-07",
+      "label": "November 7, 2023",
+      "offices": [
+        {
+          "office": "CITY COUNCIL PRESIDENT",
+          "slug": "city-council-president",
+          "seats": 1,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 3697,
+          "blank_votes": 199,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Mark S. Sideris",
+              "votes": 2623,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 148,
+                "2": 196,
+                "3": 241,
+                "4": 382,
+                "5": 161,
+                "6": 173,
+                "7": 270,
+                "8": 299,
+                "9": 138,
+                "10": 166,
+                "11": 258,
+                "12": 191
+              }
+            },
+            {
+              "name": "Clyde L. Younger",
+              "votes": 875,
+              "rank": 2,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 55,
+                "2": 71,
+                "3": 72,
+                "4": 67,
+                "5": 55,
+                "6": 61,
+                "7": 73,
+                "8": 81,
+                "9": 59,
+                "10": 96,
+                "11": 107,
+                "12": 78
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Mark S. Sideris",
+            "2": "Mark S. Sideris",
+            "3": "Mark S. Sideris",
+            "4": "Mark S. Sideris",
+            "5": "Mark S. Sideris",
+            "6": "Mark S. Sideris",
+            "7": "Mark S. Sideris",
+            "8": "Mark S. Sideris",
+            "9": "Mark S. Sideris",
+            "10": "Mark S. Sideris",
+            "11": "Mark S. Sideris",
+            "12": "Mark S. Sideris"
+          }
+        },
+        {
+          "office": "COUNCILOR-AT-LARGE",
+          "slug": "councilor-at-large",
+          "seats": 4,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 3697,
+          "blank_votes": 4912,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "John M. Airasian",
+              "votes": 2715,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 164,
+                "2": 209,
+                "3": 241,
+                "4": 338,
+                "5": 159,
+                "6": 171,
+                "7": 262,
+                "8": 288,
+                "9": 143,
+                "10": 204,
+                "11": 314,
+                "12": 222
+              }
+            },
+            {
+              "name": "Anthony Palomba",
+              "votes": 2496,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 133,
+                "2": 196,
+                "3": 253,
+                "4": 343,
+                "5": 164,
+                "6": 161,
+                "7": 237,
+                "8": 293,
+                "9": 148,
+                "10": 164,
+                "11": 227,
+                "12": 177
+              }
+            },
+            {
+              "name": "Caroline J. Bays",
+              "votes": 2374,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 127,
+                "2": 193,
+                "3": 258,
+                "4": 320,
+                "5": 161,
+                "6": 159,
+                "7": 230,
+                "8": 276,
+                "9": 148,
+                "10": 142,
+                "11": 199,
+                "12": 161
+              }
+            },
+            {
+              "name": "John G. Gannon",
+              "votes": 2276,
+              "rank": 4,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 129,
+                "2": 163,
+                "3": 219,
+                "4": 291,
+                "5": 154,
+                "6": 150,
+                "7": 204,
+                "8": 265,
+                "9": 151,
+                "10": 159,
+                "11": 219,
+                "12": 172
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "John M. Airasian",
+            "2": "John M. Airasian",
+            "3": "Caroline J. Bays",
+            "4": "Anthony Palomba",
+            "5": "Anthony Palomba",
+            "6": "John M. Airasian",
+            "7": "John M. Airasian",
+            "8": "Anthony Palomba",
+            "9": "John G. Gannon",
+            "10": "John M. Airasian",
+            "11": "John M. Airasian",
+            "12": "John M. Airasian"
+          }
+        },
+        {
+          "office": "DISTRICT A COUNCILOR",
+          "slug": "district-a-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "A",
+          "precincts": [1, 2, 3],
+          "total_ballots": 840,
+          "blank_votes": 126,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Nicole N. Gardner",
+              "votes": 714,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 169,
+                "2": 245,
+                "3": 300
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Nicole N. Gardner",
+            "2": "Nicole N. Gardner",
+            "3": "Nicole N. Gardner"
+          }
+        },
+        {
+          "office": "DISTRICT B COUNCILOR",
+          "slug": "district-b-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "B",
+          "precincts": [4, 5, 6],
+          "total_ballots": 939,
+          "blank_votes": 222,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Lisa J. Feltner",
+              "votes": 717,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "4": 357,
+                "5": 173,
+                "6": 187
+              }
+            }
+          ],
+          "precinct_winners": {
+            "4": "Lisa J. Feltner",
+            "5": "Lisa J. Feltner",
+            "6": "Lisa J. Feltner"
+          }
+        },
+        {
+          "office": "DISTRICT C COUNCILOR",
+          "slug": "district-c-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "C",
+          "precincts": [7, 8, 9],
+          "total_ballots": 991,
+          "blank_votes": 255,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Vincent J. Piccirilli Jr.",
+              "votes": 736,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "7": 270,
+                "8": 313,
+                "9": 153
+              }
+            }
+          ],
+          "precinct_winners": {
+            "7": "Vincent J. Piccirilli Jr.",
+            "8": "Vincent J. Piccirilli Jr.",
+            "9": "Vincent J. Piccirilli Jr."
+          }
+        },
+        {
+          "office": "DISTRICT D COUNCILOR",
+          "slug": "district-d-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "D",
+          "precincts": [10, 11, 12],
+          "total_ballots": 927,
+          "blank_votes": 165,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Emily C. Izzo",
+              "votes": 762,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "10": 225,
+                "11": 314,
+                "12": 223
+              }
+            }
+          ],
+          "precinct_winners": {
+            "10": "Emily C. Izzo",
+            "11": "Emily C. Izzo",
+            "12": "Emily C. Izzo"
+          }
+        },
+        {
+          "office": "LIBRARY TRUSTEES",
+          "slug": "library-trustees",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 3697,
+          "blank_votes": 3667,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Maja L. Young",
+              "votes": 2620,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 148,
+                "2": 210,
+                "3": 251,
+                "4": 358,
+                "5": 159,
+                "6": 180,
+                "7": 243,
+                "8": 298,
+                "9": 156,
+                "10": 169,
+                "11": 258,
+                "12": 190
+              }
+            },
+            {
+              "name": "Theodore C. Kokoros",
+              "votes": 2469,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 144,
+                "2": 192,
+                "3": 227,
+                "4": 318,
+                "5": 153,
+                "6": 174,
+                "7": 233,
+                "8": 282,
+                "9": 147,
+                "10": 164,
+                "11": 254,
+                "12": 181
+              }
+            },
+            {
+              "name": "Sarah Murphy-Holroyd",
+              "votes": 2318,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 137,
+                "2": 179,
+                "3": 226,
+                "4": 282,
+                "5": 144,
+                "6": 162,
+                "7": 219,
+                "8": 267,
+                "9": 147,
+                "10": 150,
+                "11": 234,
+                "12": 171
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Maja L. Young",
+            "2": "Maja L. Young",
+            "3": "Maja L. Young",
+            "4": "Maja L. Young",
+            "5": "Maja L. Young",
+            "6": "Maja L. Young",
+            "7": "Maja L. Young",
+            "8": "Maja L. Young",
+            "9": "Maja L. Young",
+            "10": "Maja L. Young",
+            "11": "Maja L. Young",
+            "12": "Maja L. Young"
+          }
+        },
+        {
+          "office": "SCHOOL COMMITTEE",
+          "slug": "school-committee",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 3697,
+          "blank_votes": 2141,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Kendra M. Foley",
+              "votes": 2147,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 125,
+                "2": 181,
+                "3": 207,
+                "4": 322,
+                "5": 131,
+                "6": 147,
+                "7": 203,
+                "8": 225,
+                "9": 119,
+                "10": 127,
+                "11": 198,
+                "12": 162
+              }
+            },
+            {
+              "name": "Lisa Capoccia",
+              "votes": 2024,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 86,
+                "2": 161,
+                "3": 188,
+                "4": 288,
+                "5": 144,
+                "6": 127,
+                "7": 234,
+                "8": 251,
+                "9": 96,
+                "10": 122,
+                "11": 173,
+                "12": 154
+              }
+            },
+            {
+              "name": "Rachel E. Kay",
+              "votes": 1978,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 135,
+                "2": 178,
+                "3": 222,
+                "4": 244,
+                "5": 120,
+                "6": 104,
+                "7": 196,
+                "8": 220,
+                "9": 137,
+                "10": 134,
+                "11": 164,
+                "12": 124
+              }
+            },
+            {
+              "name": "David M. Stokes",
+              "votes": 1453,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 87,
+                "2": 119,
+                "3": 124,
+                "4": 166,
+                "5": 97,
+                "6": 103,
+                "7": 148,
+                "8": 181,
+                "9": 72,
+                "10": 90,
+                "11": 146,
+                "12": 120
+              }
+            },
+            {
+              "name": "Jennifer A. Nicholson",
+              "votes": 1323,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 57,
+                "2": 66,
+                "3": 102,
+                "4": 114,
+                "5": 64,
+                "6": 95,
+                "7": 129,
+                "8": 140,
+                "9": 68,
+                "10": 132,
+                "11": 230,
+                "12": 126
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Rachel E. Kay",
+            "2": "Kendra M. Foley",
+            "3": "Rachel E. Kay",
+            "4": "Kendra M. Foley",
+            "5": "Lisa Capoccia",
+            "6": "Kendra M. Foley",
+            "7": "Lisa Capoccia",
+            "8": "Lisa Capoccia",
+            "9": "Rachel E. Kay",
+            "10": "Rachel E. Kay",
+            "11": "Jennifer A. Nicholson",
+            "12": "Kendra M. Foley"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2021-11-02",
+      "label": "November 2, 2021",
+      "offices": [
+        {
+          "office": "BALLOT QUESTION 1",
+          "slug": "ballot-question-1",
+          "seats": 1,
+          "scope": "question",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 6194,
+          "blank_votes": 360,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "YES",
+              "votes": 3379,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 224,
+                "2": 307,
+                "3": 416,
+                "4": 368,
+                "5": 308,
+                "6": 202,
+                "7": 294,
+                "8": 309,
+                "9": 208,
+                "10": 321,
+                "11": 214,
+                "12": 208
+              }
+            },
+            {
+              "name": "NO",
+              "votes": 2455,
+              "rank": 2,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 138,
+                "2": 158,
+                "3": 191,
+                "4": 229,
+                "5": 152,
+                "6": 121,
+                "7": 254,
+                "8": 282,
+                "9": 118,
+                "10": 399,
+                "11": 221,
+                "12": 192
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "YES",
+            "2": "YES",
+            "3": "YES",
+            "4": "YES",
+            "5": "YES",
+            "6": "YES",
+            "7": "YES",
+            "8": "YES",
+            "9": "YES",
+            "10": "NO",
+            "11": "NO",
+            "12": "YES"
+          }
+        },
+        {
+          "office": "BALLOT QUESTION 2",
+          "slug": "ballot-question-2",
+          "seats": 1,
+          "scope": "question",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 6218,
+          "blank_votes": 504,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "YES",
+              "votes": 3790,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 250,
+                "2": 332,
+                "3": 470,
+                "4": 451,
+                "5": 338,
+                "6": 225,
+                "7": 323,
+                "8": 349,
+                "9": 227,
+                "10": 366,
+                "11": 238,
+                "12": 221
+              }
+            },
+            {
+              "name": "NO",
+              "votes": 1924,
+              "rank": 2,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 105,
+                "2": 127,
+                "3": 124,
+                "4": 135,
+                "5": 116,
+                "6": 95,
+                "7": 203,
+                "8": 230,
+                "9": 90,
+                "10": 341,
+                "11": 188,
+                "12": 170
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "YES",
+            "2": "YES",
+            "3": "YES",
+            "4": "YES",
+            "5": "YES",
+            "6": "YES",
+            "7": "YES",
+            "8": "YES",
+            "9": "YES",
+            "10": "YES",
+            "11": "YES",
+            "12": "YES"
+          }
+        },
+        {
+          "office": "CITY COUNCIL PRESIDENT",
+          "slug": "city-council-president",
+          "seats": 1,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 6169,
+          "blank_votes": 1510,
+          "write_ins": 143,
+          "candidates": [
+            {
+              "name": "Mark S. Sideris",
+              "votes": 4516,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 279,
+                "2": 332,
+                "3": 461,
+                "4": 471,
+                "5": 353,
+                "6": 271,
+                "7": 457,
+                "8": 461,
+                "9": 245,
+                "10": 542,
+                "11": 333,
+                "12": 311
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Mark S. Sideris",
+            "2": "Mark S. Sideris",
+            "3": "Mark S. Sideris",
+            "4": "Mark S. Sideris",
+            "5": "Mark S. Sideris",
+            "6": "Mark S. Sideris",
+            "7": "Mark S. Sideris",
+            "8": "Mark S. Sideris",
+            "9": "Mark S. Sideris",
+            "10": "Mark S. Sideris",
+            "11": "Mark S. Sideris",
+            "12": "Mark S. Sideris"
+          }
+        },
+        {
+          "office": "COUNCILOR-AT-LARGE",
+          "slug": "councilor-at-large",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 7129,
+          "blank_votes": 5463,
+          "write_ins": 23,
+          "candidates": [
+            {
+              "name": "Anthony Palomba",
+              "votes": 3251,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 198,
+                "2": 298,
+                "3": 409,
+                "4": 406,
+                "5": 303,
+                "6": 189,
+                "7": 304,
+                "8": 332,
+                "9": 195,
+                "10": 260,
+                "11": 173,
+                "12": 184
+              }
+            },
+            {
+              "name": "John Airasian",
+              "votes": 3177,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 214,
+                "2": 228,
+                "3": 257,
+                "4": 298,
+                "5": 223,
+                "6": 156,
+                "7": 319,
+                "8": 288,
+                "9": 162,
+                "10": 466,
+                "11": 306,
+                "12": 260
+              }
+            },
+            {
+              "name": "Caroline J. Bays",
+              "votes": 3176,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 207,
+                "2": 303,
+                "3": 408,
+                "4": 403,
+                "5": 284,
+                "6": 189,
+                "7": 307,
+                "8": 309,
+                "9": 188,
+                "10": 238,
+                "11": 159,
+                "12": 181
+              }
+            },
+            {
+              "name": "John G. Gannon",
+              "votes": 2916,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 170,
+                "2": 232,
+                "3": 303,
+                "4": 355,
+                "5": 281,
+                "6": 170,
+                "7": 287,
+                "8": 304,
+                "9": 182,
+                "10": 304,
+                "11": 152,
+                "12": 176
+              }
+            },
+            {
+              "name": "Daniel D’Amico",
+              "votes": 2662,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 135,
+                "2": 196,
+                "3": 311,
+                "4": 321,
+                "5": 233,
+                "6": 149,
+                "7": 259,
+                "8": 301,
+                "9": 164,
+                "10": 282,
+                "11": 171,
+                "12": 140
+              }
+            },
+            {
+              "name": "Megan S. O’Halloran",
+              "votes": 2349,
+              "rank": 6,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 139,
+                "2": 161,
+                "3": 157,
+                "4": 177,
+                "5": 155,
+                "6": 116,
+                "7": 236,
+                "8": 243,
+                "9": 126,
+                "10": 371,
+                "11": 250,
+                "12": 218
+              }
+            },
+            {
+              "name": "James L. Mello",
+              "votes": 1662,
+              "rank": 7,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 93,
+                "2": 88,
+                "3": 85,
+                "4": 123,
+                "5": 99,
+                "6": 81,
+                "7": 178,
+                "8": 195,
+                "9": 91,
+                "10": 275,
+                "11": 197,
+                "12": 157
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "John Airasian",
+            "2": "Caroline J. Bays",
+            "3": "Anthony Palomba",
+            "4": "Anthony Palomba",
+            "5": "Anthony Palomba",
+            "6": "Anthony Palomba",
+            "7": "John Airasian",
+            "8": "Anthony Palomba",
+            "9": "Anthony Palomba",
+            "10": "John Airasian",
+            "11": "John Airasian",
+            "12": "John Airasian"
+          }
+        },
+        {
+          "office": "DISTRICT A COUNCILOR",
+          "slug": "district-a-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "A",
+          "precincts": [1, 2, 3],
+          "total_ballots": 1539,
+          "blank_votes": 54,
+          "write_ins": 3,
+          "candidates": [
+            {
+              "name": "Nicole N. Gardner",
+              "votes": 1109,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 242,
+                "2": 369,
+                "3": 498
+              }
+            },
+            {
+              "name": "Michael J. Hanlon Jr.",
+              "votes": 373,
+              "rank": 2,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 141,
+                "2": 106,
+                "3": 126
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Nicole N. Gardner",
+            "2": "Nicole N. Gardner",
+            "3": "Nicole N. Gardner"
+          }
+        },
+        {
+          "office": "DISTRICT B COUNCILOR",
+          "slug": "district-b-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "B",
+          "precincts": [4, 5, 6],
+          "total_ballots": 1476,
+          "blank_votes": 110,
+          "write_ins": 3,
+          "candidates": [
+            {
+              "name": "Lisa J. Feltner",
+              "votes": 924,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "4": 425,
+                "5": 305,
+                "6": 194
+              }
+            },
+            {
+              "name": "Tiffany York",
+              "votes": 439,
+              "rank": 2,
+              "is_winner": false,
+              "by_precinct": {
+                "4": 149,
+                "5": 158,
+                "6": 132
+              }
+            }
+          ],
+          "precinct_winners": {
+            "4": "Lisa J. Feltner",
+            "5": "Lisa J. Feltner",
+            "6": "Lisa J. Feltner"
+          }
+        },
+        {
+          "office": "DISTRICT C COUNCILOR",
+          "slug": "district-c-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "C",
+          "precincts": [7, 8, 9],
+          "total_ballots": 1534,
+          "blank_votes": 387,
+          "write_ins": 56,
+          "candidates": [
+            {
+              "name": "Vincent J. Piccirilli Jr.",
+              "votes": 1091,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "7": 427,
+                "8": 437,
+                "9": 227
+              }
+            }
+          ],
+          "precinct_winners": {
+            "7": "Vincent J. Piccirilli Jr.",
+            "8": "Vincent J. Piccirilli Jr.",
+            "9": "Vincent J. Piccirilli Jr."
+          }
+        },
+        {
+          "office": "DISTRICT D COUNCILOR",
+          "slug": "district-d-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "D",
+          "precincts": [10, 11, 12],
+          "total_ballots": 1627,
+          "blank_votes": 78,
+          "write_ins": 0,
+          "candidates": [
+            {
+              "name": "Emily C. Izzo",
+              "votes": 1095,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "10": 515,
+                "11": 309,
+                "12": 271
+              }
+            },
+            {
+              "name": "Constance S. Henry",
+              "votes": 454,
+              "rank": 2,
+              "is_winner": false,
+              "by_precinct": {
+                "10": 198,
+                "11": 127,
+                "12": 129
+              }
+            }
+          ],
+          "precinct_winners": {
+            "10": "Emily C. Izzo",
+            "11": "Emily C. Izzo",
+            "12": "Emily C. Izzo"
+          }
+        },
+        {
+          "office": "LIBRARY TRUSTEES",
+          "slug": "library-trustees",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 6663,
+          "blank_votes": 6866,
+          "write_ins": 45,
+          "candidates": [
+            {
+              "name": "Leanne Hammonds",
+              "votes": 3525,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 218,
+                "2": 266,
+                "3": 350,
+                "4": 384,
+                "5": 293,
+                "6": 209,
+                "7": 358,
+                "8": 375,
+                "9": 198,
+                "10": 397,
+                "11": 247,
+                "12": 230
+              }
+            },
+            {
+              "name": "Sara A. Keary",
+              "votes": 2764,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 169,
+                "2": 232,
+                "3": 268,
+                "4": 261,
+                "5": 282,
+                "6": 174,
+                "7": 230,
+                "8": 279,
+                "9": 186,
+                "10": 304,
+                "11": 212,
+                "12": 167
+              }
+            },
+            {
+              "name": "Rose Mary Su",
+              "votes": 2757,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 191,
+                "2": 228,
+                "3": 340,
+                "4": 280,
+                "5": 225,
+                "6": 143,
+                "7": 248,
+                "8": 263,
+                "9": 176,
+                "10": 319,
+                "11": 186,
+                "12": 158
+              }
+            },
+            {
+              "name": "Maja L. Young",
+              "votes": 2406,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 168,
+                "2": 224,
+                "3": 267,
+                "4": 313,
+                "5": 201,
+                "6": 134,
+                "7": 225,
+                "8": 216,
+                "9": 126,
+                "10": 232,
+                "11": 145,
+                "12": 155
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Leanne Hammonds",
+            "2": "Leanne Hammonds",
+            "3": "Leanne Hammonds",
+            "4": "Leanne Hammonds",
+            "5": "Leanne Hammonds",
+            "6": "Leanne Hammonds",
+            "7": "Leanne Hammonds",
+            "8": "Leanne Hammonds",
+            "9": "Leanne Hammonds",
+            "10": "Leanne Hammonds",
+            "11": "Leanne Hammonds",
+            "12": "Leanne Hammonds"
+          }
+        },
+        {
+          "office": "SCHOOL COMMITTEE",
+          "slug": "school-committee",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 6806,
+          "blank_votes": 4149,
+          "write_ins": 21,
+          "candidates": [
+            {
+              "name": "Amy B. Donohue",
+              "votes": 2924,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 183,
+                "2": 199,
+                "3": 248,
+                "4": 296,
+                "5": 200,
+                "6": 176,
+                "7": 315,
+                "8": 295,
+                "9": 156,
+                "10": 377,
+                "11": 254,
+                "12": 225
+              }
+            },
+            {
+              "name": "Lily Rayman-Read",
+              "votes": 2825,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 172,
+                "2": 238,
+                "3": 327,
+                "4": 337,
+                "5": 273,
+                "6": 174,
+                "7": 278,
+                "8": 294,
+                "9": 158,
+                "10": 235,
+                "11": 157,
+                "12": 182
+              }
+            },
+            {
+              "name": "Jessica D. Middlebrook",
+              "votes": 2572,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 137,
+                "2": 203,
+                "3": 291,
+                "4": 328,
+                "5": 229,
+                "6": 139,
+                "7": 245,
+                "8": 281,
+                "9": 147,
+                "10": 266,
+                "11": 155,
+                "12": 151
+              }
+            },
+            {
+              "name": "Jennifer A. Nicholson",
+              "votes": 2183,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 108,
+                "2": 134,
+                "3": 119,
+                "4": 177,
+                "5": 156,
+                "6": 105,
+                "7": 238,
+                "8": 234,
+                "9": 94,
+                "10": 375,
+                "11": 246,
+                "12": 197
+              }
+            },
+            {
+              "name": "Rachel E. Kay",
+              "votes": 2127,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 139,
+                "2": 221,
+                "3": 311,
+                "4": 253,
+                "5": 176,
+                "6": 122,
+                "7": 176,
+                "8": 189,
+                "9": 156,
+                "10": 167,
+                "11": 110,
+                "12": 107
+              }
+            },
+            {
+              "name": "Colleen Mahoney Faherty",
+              "votes": 1705,
+              "rank": 6,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 100,
+                "2": 113,
+                "3": 98,
+                "4": 119,
+                "5": 98,
+                "6": 88,
+                "7": 178,
+                "8": 193,
+                "9": 85,
+                "10": 270,
+                "11": 180,
+                "12": 183
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Amy B. Donohue",
+            "2": "Lily Rayman-Read",
+            "3": "Lily Rayman-Read",
+            "4": "Lily Rayman-Read",
+            "5": "Lily Rayman-Read",
+            "6": "Amy B. Donohue",
+            "7": "Amy B. Donohue",
+            "8": "Amy B. Donohue",
+            "9": "Lily Rayman-Read",
+            "10": "Amy B. Donohue",
+            "11": "Amy B. Donohue",
+            "12": "Amy B. Donohue"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2019-11-05",
+      "label": "November 5, 2019",
+      "offices": [
+        {
+          "office": "CITY COUNCIL PRESIDENT",
+          "slug": "city-council-president",
+          "seats": 1,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4112,
+          "blank_votes": 837,
+          "write_ins": 59,
+          "candidates": [
+            {
+              "name": "Mark S. Sideris",
+              "votes": 3216,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 178,
+                "2": 212,
+                "3": 252,
+                "4": 363,
+                "5": 306,
+                "6": 205,
+                "7": 369,
+                "8": 403,
+                "9": 178,
+                "10": 336,
+                "11": 201,
+                "12": 213
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Mark S. Sideris",
+            "2": "Mark S. Sideris",
+            "3": "Mark S. Sideris",
+            "4": "Mark S. Sideris",
+            "5": "Mark S. Sideris",
+            "6": "Mark S. Sideris",
+            "7": "Mark S. Sideris",
+            "8": "Mark S. Sideris",
+            "9": "Mark S. Sideris",
+            "10": "Mark S. Sideris",
+            "11": "Mark S. Sideris",
+            "12": "Mark S. Sideris"
+          }
+        },
+        {
+          "office": "COUNCILOR-AT-LARGE",
+          "slug": "councilor-at-large",
+          "seats": 4,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4112,
+          "blank_votes": 3548,
+          "write_ins": 38,
+          "candidates": [
+            {
+              "name": "Anthony Joseph Donato",
+              "votes": 2657,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 131,
+                "2": 175,
+                "3": 186,
+                "4": 317,
+                "5": 235,
+                "6": 132,
+                "7": 282,
+                "8": 339,
+                "9": 153,
+                "10": 315,
+                "11": 188,
+                "12": 204
+              }
+            },
+            {
+              "name": "Anthony Palomba",
+              "votes": 2556,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 127,
+                "2": 195,
+                "3": 230,
+                "4": 338,
+                "5": 268,
+                "6": 145,
+                "7": 286,
+                "8": 309,
+                "9": 147,
+                "10": 235,
+                "11": 124,
+                "12": 152
+              }
+            },
+            {
+              "name": "Caroline J. Bays",
+              "votes": 2355,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 121,
+                "2": 165,
+                "3": 231,
+                "4": 314,
+                "5": 260,
+                "6": 159,
+                "7": 283,
+                "8": 277,
+                "9": 132,
+                "10": 170,
+                "11": 115,
+                "12": 128
+              }
+            },
+            {
+              "name": "John G. Gannon",
+              "votes": 2170,
+              "rank": 4,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 100,
+                "2": 142,
+                "3": 176,
+                "4": 299,
+                "5": 220,
+                "6": 126,
+                "7": 230,
+                "8": 271,
+                "9": 112,
+                "10": 232,
+                "11": 123,
+                "12": 139
+              }
+            },
+            {
+              "name": "Clyde L. Younger",
+              "votes": 1126,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 52,
+                "2": 84,
+                "3": 84,
+                "4": 74,
+                "5": 94,
+                "6": 71,
+                "7": 121,
+                "8": 125,
+                "9": 64,
+                "10": 174,
+                "11": 93,
+                "12": 90
+              }
+            },
+            {
+              "name": "James L. Mello",
+              "votes": 1100,
+              "rank": 6,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 69,
+                "2": 69,
+                "3": 52,
+                "4": 77,
+                "5": 88,
+                "6": 61,
+                "7": 127,
+                "8": 145,
+                "9": 64,
+                "10": 151,
+                "11": 98,
+                "12": 99
+              }
+            },
+            {
+              "name": "Michelle Joyce Cokonougher",
+              "votes": 898,
+              "rank": 7,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 70,
+                "2": 69,
+                "3": 98,
+                "4": 86,
+                "5": 101,
+                "6": 57,
+                "7": 73,
+                "8": 102,
+                "9": 60,
+                "10": 72,
+                "11": 59,
+                "12": 51
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Anthony Joseph Donato",
+            "2": "Anthony Palomba",
+            "3": "Caroline J. Bays",
+            "4": "Anthony Palomba",
+            "5": "Anthony Palomba",
+            "6": "Caroline J. Bays",
+            "7": "Anthony Palomba",
+            "8": "Anthony Joseph Donato",
+            "9": "Anthony Joseph Donato",
+            "10": "Anthony Joseph Donato",
+            "11": "Anthony Joseph Donato",
+            "12": "Anthony Joseph Donato"
+          }
+        },
+        {
+          "office": "DISTRICT A COUNCILOR",
+          "slug": "district-a-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "A",
+          "precincts": [1, 2, 3],
+          "total_ballots": 822,
+          "blank_votes": 176,
+          "write_ins": 7,
+          "candidates": [
+            {
+              "name": "Angeline B. Kounelis",
+              "votes": 639,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 160,
+                "2": 220,
+                "3": 259
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Angeline B. Kounelis",
+            "2": "Angeline B. Kounelis",
+            "3": "Angeline B. Kounelis"
+          }
+        },
+        {
+          "office": "DISTRICT B COUNCILOR",
+          "slug": "district-b-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "B",
+          "precincts": [4, 5, 6],
+          "total_ballots": 1121,
+          "blank_votes": 238,
+          "write_ins": 12,
+          "candidates": [
+            {
+              "name": "Lisa J. Feltner",
+              "votes": 871,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "4": 363,
+                "5": 320,
+                "6": 188
+              }
+            }
+          ],
+          "precinct_winners": {
+            "4": "Lisa J. Feltner",
+            "5": "Lisa J. Feltner",
+            "6": "Lisa J. Feltner"
+          }
+        },
+        {
+          "office": "DISTRICT C COUNCILOR",
+          "slug": "district-c-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "C",
+          "precincts": [7, 8, 9],
+          "total_ballots": 1179,
+          "blank_votes": 221,
+          "write_ins": 14,
+          "candidates": [
+            {
+              "name": "Vincent J. Piccirilli Jr.",
+              "votes": 944,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "7": 366,
+                "8": 391,
+                "9": 187
+              }
+            }
+          ],
+          "precinct_winners": {
+            "7": "Vincent J. Piccirilli Jr.",
+            "8": "Vincent J. Piccirilli Jr.",
+            "9": "Vincent J. Piccirilli Jr."
+          }
+        },
+        {
+          "office": "DISTRICT D COUNCILOR",
+          "slug": "district-d-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "D",
+          "precincts": [10, 11, 12],
+          "total_ballots": 990,
+          "blank_votes": 251,
+          "write_ins": 13,
+          "candidates": [
+            {
+              "name": "Kenneth Michael Woodland",
+              "votes": 726,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "10": 335,
+                "11": 187,
+                "12": 204
+              }
+            }
+          ],
+          "precinct_winners": {
+            "10": "Kenneth Michael Woodland",
+            "11": "Kenneth Michael Woodland",
+            "12": "Kenneth Michael Woodland"
+          }
+        },
+        {
+          "office": "LIBRARY TRUSTEES",
+          "slug": "library-trustees",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4112,
+          "blank_votes": 4843,
+          "write_ins": 36,
+          "candidates": [
+            {
+              "name": "Sheppard Ferguson",
+              "votes": 2560,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 140,
+                "2": 175,
+                "3": 242,
+                "4": 307,
+                "5": 251,
+                "6": 155,
+                "7": 270,
+                "8": 302,
+                "9": 155,
+                "10": 264,
+                "11": 150,
+                "12": 149
+              }
+            },
+            {
+              "name": "Mara Dolan",
+              "votes": 2547,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 134,
+                "2": 173,
+                "3": 213,
+                "4": 304,
+                "5": 241,
+                "6": 159,
+                "7": 276,
+                "8": 311,
+                "9": 154,
+                "10": 252,
+                "11": 175,
+                "12": 155
+              }
+            },
+            {
+              "name": "Theodore C. Kokoros",
+              "votes": 2350,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 114,
+                "2": 164,
+                "3": 207,
+                "4": 273,
+                "5": 229,
+                "6": 140,
+                "7": 242,
+                "8": 303,
+                "9": 137,
+                "10": 238,
+                "11": 149,
+                "12": 154
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Sheppard Ferguson",
+            "2": "Sheppard Ferguson",
+            "3": "Sheppard Ferguson",
+            "4": "Sheppard Ferguson",
+            "5": "Sheppard Ferguson",
+            "6": "Mara Dolan",
+            "7": "Mara Dolan",
+            "8": "Mara Dolan",
+            "9": "Sheppard Ferguson",
+            "10": "Sheppard Ferguson",
+            "11": "Mara Dolan",
+            "12": "Mara Dolan"
+          }
+        },
+        {
+          "office": "SCHOOL COMMITTEE",
+          "slug": "school-committee",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4112,
+          "blank_votes": 4644,
+          "write_ins": 41,
+          "candidates": [
+            {
+              "name": "Kendra M. Foley",
+              "votes": 2693,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 133,
+                "2": 189,
+                "3": 231,
+                "4": 344,
+                "5": 265,
+                "6": 166,
+                "7": 288,
+                "8": 326,
+                "9": 153,
+                "10": 279,
+                "11": 157,
+                "12": 162
+              }
+            },
+            {
+              "name": "Lindsay J. Mosca",
+              "votes": 2603,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 137,
+                "2": 182,
+                "3": 219,
+                "4": 285,
+                "5": 229,
+                "6": 157,
+                "7": 289,
+                "8": 326,
+                "9": 161,
+                "10": 275,
+                "11": 171,
+                "12": 172
+              }
+            },
+            {
+              "name": "David M. Stokes",
+              "votes": 2355,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 122,
+                "2": 158,
+                "3": 212,
+                "4": 265,
+                "5": 223,
+                "6": 140,
+                "7": 255,
+                "8": 304,
+                "9": 138,
+                "10": 238,
+                "11": 145,
+                "12": 155
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Lindsay J. Mosca",
+            "2": "Kendra M. Foley",
+            "3": "Kendra M. Foley",
+            "4": "Kendra M. Foley",
+            "5": "Kendra M. Foley",
+            "6": "Kendra M. Foley",
+            "7": "Lindsay J. Mosca",
+            "8": "Kendra M. Foley",
+            "9": "Lindsay J. Mosca",
+            "10": "Kendra M. Foley",
+            "11": "Lindsay J. Mosca",
+            "12": "Lindsay J. Mosca"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2017-11-07",
+      "label": "November 7, 2017",
+      "offices": [
+        {
+          "office": "CITY COUNCIL PRESIDENT",
+          "slug": "city-council-president",
+          "seats": 1,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4758,
+          "blank_votes": 1138,
+          "write_ins": 64,
+          "candidates": [
+            {
+              "name": "Mark Sideris",
+              "votes": 3556,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 168,
+                "2": 234,
+                "3": 282,
+                "4": 395,
+                "5": 307,
+                "6": 240,
+                "7": 413,
+                "8": 430,
+                "9": 217,
+                "10": 388,
+                "11": 248,
+                "12": 234
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Mark Sideris",
+            "2": "Mark Sideris",
+            "3": "Mark Sideris",
+            "4": "Mark Sideris",
+            "5": "Mark Sideris",
+            "6": "Mark Sideris",
+            "7": "Mark Sideris",
+            "8": "Mark Sideris",
+            "9": "Mark Sideris",
+            "10": "Mark Sideris",
+            "11": "Mark Sideris",
+            "12": "Mark Sideris"
+          }
+        },
+        {
+          "office": "COUNCILOR-AT-LARGE",
+          "slug": "councilor-at-large",
+          "seats": 4,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4758,
+          "blank_votes": 5941,
+          "write_ins": 41,
+          "candidates": [
+            {
+              "name": "Anthony J Donato",
+              "votes": 3053,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 136,
+                "2": 189,
+                "3": 225,
+                "4": 341,
+                "5": 211,
+                "6": 191,
+                "7": 355,
+                "8": 328,
+                "9": 159,
+                "10": 403,
+                "11": 255,
+                "12": 260
+              }
+            },
+            {
+              "name": "Caroline J Bays",
+              "votes": 2657,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 125,
+                "2": 193,
+                "3": 235,
+                "4": 367,
+                "5": 249,
+                "6": 181,
+                "7": 328,
+                "8": 307,
+                "9": 160,
+                "10": 211,
+                "11": 151,
+                "12": 150
+              }
+            },
+            {
+              "name": "Anthony Palomba",
+              "votes": 2644,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 114,
+                "2": 189,
+                "3": 241,
+                "4": 355,
+                "5": 261,
+                "6": 154,
+                "7": 322,
+                "8": 306,
+                "9": 149,
+                "10": 242,
+                "11": 162,
+                "12": 149
+              }
+            },
+            {
+              "name": "Michael F Dattoli",
+              "votes": 2337,
+              "rank": 4,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 124,
+                "2": 169,
+                "3": 173,
+                "4": 254,
+                "5": 186,
+                "6": 121,
+                "7": 289,
+                "8": 285,
+                "9": 136,
+                "10": 269,
+                "11": 170,
+                "12": 161
+              }
+            },
+            {
+              "name": "David Michael Stokes",
+              "votes": 1264,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 57,
+                "2": 89,
+                "3": 96,
+                "4": 142,
+                "5": 111,
+                "6": 102,
+                "7": 133,
+                "8": 185,
+                "9": 71,
+                "10": 130,
+                "11": 83,
+                "12": 65
+              }
+            },
+            {
+              "name": "Michelle Cokonoughi",
+              "votes": 1095,
+              "rank": 6,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 67,
+                "2": 93,
+                "3": 99,
+                "4": 88,
+                "5": 120,
+                "6": 86,
+                "7": 93,
+                "8": 125,
+                "9": 89,
+                "10": 94,
+                "11": 75,
+                "12": 66
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Anthony J Donato",
+            "2": "Caroline J Bays",
+            "3": "Anthony Palomba",
+            "4": "Caroline J Bays",
+            "5": "Anthony Palomba",
+            "6": "Anthony J Donato",
+            "7": "Anthony J Donato",
+            "8": "Anthony J Donato",
+            "9": "Caroline J Bays",
+            "10": "Anthony J Donato",
+            "11": "Anthony J Donato",
+            "12": "Anthony J Donato"
+          }
+        },
+        {
+          "office": "DISTRICT A COUNCILOR",
+          "slug": "district-a-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "A",
+          "precincts": [1, 2, 3],
+          "total_ballots": 918,
+          "blank_votes": 250,
+          "write_ins": 9,
+          "candidates": [
+            {
+              "name": "Angeline B Kounelis",
+              "votes": 659,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 171,
+                "2": 220,
+                "3": 268
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Angeline B Kounelis",
+            "2": "Angeline B Kounelis",
+            "3": "Angeline B Kounelis"
+          }
+        },
+        {
+          "office": "DISTRICT B COUNCILOR",
+          "slug": "district-b-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "B",
+          "precincts": [4, 5, 6],
+          "total_ballots": 1265,
+          "blank_votes": 350,
+          "write_ins": 13,
+          "candidates": [
+            {
+              "name": "Lisa J Feltner",
+              "votes": 902,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "4": 372,
+                "5": 309,
+                "6": 221
+              }
+            }
+          ],
+          "precinct_winners": {
+            "4": "Lisa J Feltner",
+            "5": "Lisa J Feltner",
+            "6": "Lisa J Feltner"
+          }
+        },
+        {
+          "office": "DISTRICT C COUNCILOR",
+          "slug": "district-c-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "C",
+          "precincts": [7, 8, 9],
+          "total_ballots": 1387,
+          "blank_votes": 362,
+          "write_ins": 20,
+          "candidates": [
+            {
+              "name": "V.J. Piccirilli Jr",
+              "votes": 1005,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "7": 400,
+                "8": 409,
+                "9": 196
+              }
+            }
+          ],
+          "precinct_winners": {
+            "7": "V.J. Piccirilli Jr",
+            "8": "V.J. Piccirilli Jr",
+            "9": "V.J. Piccirilli Jr"
+          }
+        },
+        {
+          "office": "DISTRICT D COUNCILOR",
+          "slug": "district-d-councilor",
+          "seats": 1,
+          "scope": "district",
+          "district": "D",
+          "precincts": [10, 11, 12],
+          "total_ballots": 1188,
+          "blank_votes": 347,
+          "write_ins": 6,
+          "candidates": [
+            {
+              "name": "Kenneth M Woodland",
+              "votes": 835,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "10": 363,
+                "11": 238,
+                "12": 234
+              }
+            }
+          ],
+          "precinct_winners": {
+            "10": "Kenneth M Woodland",
+            "11": "Kenneth M Woodland",
+            "12": "Kenneth M Woodland"
+          }
+        },
+        {
+          "office": "LIBRARY TRUSTEES",
+          "slug": "library-trustees",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4758,
+          "blank_votes": 6022,
+          "write_ins": 37,
+          "candidates": [
+            {
+              "name": "Leanne Hammonds",
+              "votes": 2536,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 122,
+                "2": 165,
+                "3": 217,
+                "4": 274,
+                "5": 207,
+                "6": 166,
+                "7": 308,
+                "8": 313,
+                "9": 158,
+                "10": 236,
+                "11": 188,
+                "12": 182
+              }
+            },
+            {
+              "name": "Michael J Hanlon Jr",
+              "votes": 1994,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 116,
+                "2": 150,
+                "3": 151,
+                "4": 196,
+                "5": 163,
+                "6": 145,
+                "7": 218,
+                "8": 215,
+                "9": 132,
+                "10": 231,
+                "11": 145,
+                "12": 132
+              }
+            },
+            {
+              "name": "Daniel E Pritchard",
+              "votes": 1947,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 88,
+                "2": 146,
+                "3": 202,
+                "4": 226,
+                "5": 182,
+                "6": 99,
+                "7": 213,
+                "8": 232,
+                "9": 121,
+                "10": 188,
+                "11": 141,
+                "12": 109
+              }
+            },
+            {
+              "name": "David R Breakstone",
+              "votes": 1738,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 69,
+                "2": 101,
+                "3": 125,
+                "4": 259,
+                "5": 176,
+                "6": 126,
+                "7": 173,
+                "8": 264,
+                "9": 111,
+                "10": 124,
+                "11": 122,
+                "12": 88
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Leanne Hammonds",
+            "2": "Leanne Hammonds",
+            "3": "Leanne Hammonds",
+            "4": "Leanne Hammonds",
+            "5": "Leanne Hammonds",
+            "6": "Leanne Hammonds",
+            "7": "Leanne Hammonds",
+            "8": "Leanne Hammonds",
+            "9": "Leanne Hammonds",
+            "10": "Leanne Hammonds",
+            "11": "Leanne Hammonds",
+            "12": "Leanne Hammonds"
+          }
+        },
+        {
+          "office": "SCHOOL COMMITTEE",
+          "slug": "school-committee",
+          "seats": 3,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4758,
+          "blank_votes": 3740,
+          "write_ins": 28,
+          "candidates": [
+            {
+              "name": "Amy B Donohue",
+              "votes": 2549,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 116,
+                "2": 168,
+                "3": 169,
+                "4": 271,
+                "5": 180,
+                "6": 179,
+                "7": 326,
+                "8": 293,
+                "9": 135,
+                "10": 300,
+                "11": 203,
+                "12": 209
+              }
+            },
+            {
+              "name": "John H Portz",
+              "votes": 2101,
+              "rank": 2,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 85,
+                "2": 128,
+                "3": 179,
+                "4": 306,
+                "5": 189,
+                "6": 125,
+                "7": 264,
+                "8": 240,
+                "9": 105,
+                "10": 215,
+                "11": 141,
+                "12": 124
+              }
+            },
+            {
+              "name": "Lily R Rayman-Read",
+              "votes": 1691,
+              "rank": 3,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 82,
+                "2": 124,
+                "3": 122,
+                "4": 215,
+                "5": 146,
+                "6": 95,
+                "7": 186,
+                "8": 243,
+                "9": 116,
+                "10": 165,
+                "11": 113,
+                "12": 84
+              }
+            },
+            {
+              "name": "Elizabeth K Yusem",
+              "votes": 1665,
+              "rank": 4,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 84,
+                "2": 126,
+                "3": 167,
+                "4": 229,
+                "5": 170,
+                "6": 123,
+                "7": 172,
+                "8": 171,
+                "9": 102,
+                "10": 134,
+                "11": 82,
+                "12": 105
+              }
+            },
+            {
+              "name": "Guido Guidotti",
+              "votes": 1532,
+              "rank": 5,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 77,
+                "2": 105,
+                "3": 124,
+                "4": 166,
+                "5": 136,
+                "6": 100,
+                "7": 179,
+                "8": 175,
+                "9": 94,
+                "10": 166,
+                "11": 117,
+                "12": 93
+              }
+            },
+            {
+              "name": "Michael K Shepard",
+              "votes": 968,
+              "rank": 6,
+              "is_winner": false,
+              "by_precinct": {
+                "1": 46,
+                "2": 82,
+                "3": 64,
+                "4": 81,
+                "5": 97,
+                "6": 77,
+                "7": 88,
+                "8": 106,
+                "9": 57,
+                "10": 123,
+                "11": 79,
+                "12": 68
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Amy B Donohue",
+            "2": "Amy B Donohue",
+            "3": "John H Portz",
+            "4": "John H Portz",
+            "5": "John H Portz",
+            "6": "Amy B Donohue",
+            "7": "Amy B Donohue",
+            "8": "Amy B Donohue",
+            "9": "Amy B Donohue",
+            "10": "Amy B Donohue",
+            "11": "Amy B Donohue",
+            "12": "Amy B Donohue"
+          }
+        },
+        {
+          "office": "SCHOOL COMMITTEE 2-YEAR TERM",
+          "slug": "school-committee-2-year-term",
+          "seats": 1,
+          "scope": "citywide",
+          "district": null,
+          "precincts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "total_ballots": 4758,
+          "blank_votes": 1746,
+          "write_ins": 33,
+          "candidates": [
+            {
+              "name": "Lindsay Jean Mosca",
+              "votes": 2979,
+              "rank": 1,
+              "is_winner": true,
+              "by_precinct": {
+                "1": 149,
+                "2": 199,
+                "3": 240,
+                "4": 323,
+                "5": 227,
+                "6": 212,
+                "7": 331,
+                "8": 365,
+                "9": 191,
+                "10": 318,
+                "11": 222,
+                "12": 202
+              }
+            }
+          ],
+          "precinct_winners": {
+            "1": "Lindsay Jean Mosca",
+            "2": "Lindsay Jean Mosca",
+            "3": "Lindsay Jean Mosca",
+            "4": "Lindsay Jean Mosca",
+            "5": "Lindsay Jean Mosca",
+            "6": "Lindsay Jean Mosca",
+            "7": "Lindsay Jean Mosca",
+            "8": "Lindsay Jean Mosca",
+            "9": "Lindsay Jean Mosca",
+            "10": "Lindsay Jean Mosca",
+            "11": "Lindsay Jean Mosca",
+            "12": "Lindsay Jean Mosca"
+          }
+        }
+      ]
+    }
+  ]
+}
