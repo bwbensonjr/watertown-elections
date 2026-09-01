@@ -90,6 +90,12 @@ h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; }
   color: var(--fg);
 }
 .card:hover { border-color: var(--accent); text-decoration: none; }
+/* The three parts of a card are spans, so they need blockifying: as inline
+   boxes they run together on one line ("November 4, 20258 offices...") and
+   ignore the margin-top rules below. */
+.card .card-title,
+.card .card-meta,
+.card .card-winners { display: block; }
 .card .card-title { font-weight: 700; font-size: 1.05rem; }
 .card .card-meta { color: var(--muted); font-size: 0.9rem; margin-top: 0.2rem; }
 .card .card-winners { margin-top: 0.4rem; font-size: 0.95rem; }
