@@ -286,15 +286,25 @@ function matrixTable(office) {
 
 // ---- Map (Leaflet choropleth over a light basemap) ------------------------
 //
-// Semi-transparent precinct fills sit over CARTO Positron street tiles so
-// residents can orient by streets and landmarks. Each precinct carries a
+// Semi-transparent precinct fills sit over Esri World Light Gray Canvas tiles
+// so residents can orient by streets and landmarks. Each precinct carries a
 // permanent number label. Needs a network connection and the Leaflet library;
 // if either is missing, only the map degrades — the rest of the page works.
+//
+// Basemap history: this used CARTO Positron, but CARTO now stamps an
+// "API KEY REQUIRED" watermark across keyless tiles. Esri's light gray canvas
+// is the closest muted, keyless equivalent — no credentials to embed in a
+// public static site. It only renders through zoom 16, so TILE_MAX_NATIVE_ZOOM
+// lets Leaflet upscale beyond that.
 
-const TILE_URL = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+const TILE_URL =
+  "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/" +
+  "World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}";
 const TILE_ATTRIB =
+  'Tiles &copy; <a href="https://www.esri.com/">Esri</a> — Esri, HERE, Garmin, ' +
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ' +
-  'contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+  'contributors';
+const TILE_MAX_NATIVE_ZOOM = 16;
 
 const FILL_OPACITY = 0.5;
 const FILL_OPACITY_HOVER = 0.72;
@@ -380,8 +390,8 @@ function buildLeafletMap(canvas, office, colors, inScope) {
   currentMap = map;
 
   L.tileLayer(TILE_URL, {
-    subdomains: "abcd",
     maxZoom: 19,
+    maxNativeZoom: TILE_MAX_NATIVE_ZOOM,
     attribution: TILE_ATTRIB,
   }).addTo(map);
 
